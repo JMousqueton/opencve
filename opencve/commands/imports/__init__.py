@@ -9,7 +9,7 @@ from opencve.models.cve import Cve
 from opencve.models.metas import Meta
 
 CURRENT_YEAR = arrow.now().year
-CVE_FIRST_YEAR = 2002
+CVE_FIRST_YEAR = 2020
 
 
 @click.command()
